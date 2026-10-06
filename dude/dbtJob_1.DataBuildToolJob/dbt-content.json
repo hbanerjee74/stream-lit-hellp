@@ -1,0 +1,28 @@
+{
+  "project": {
+    "projectType": "OneLake",
+    "folderPath": "dbt"
+  },
+  "profile": {
+    "profileType": "Lakehouse",
+    "schema": "jaffle_shop",
+    "connectionSettings": {
+      "name": "axfabriclakehouse",
+      "properties": {
+        "type": "Lakehouse",
+        "typeProperties": {
+          "workspaceId": "1589f8a3-9d2c-4aa7-98d2-4e6c2e5e92dc",
+          "artifactId": "8b02caa4-2cf4-4de3-bbe2-ed285f579b00",
+          "endPoint": "zcoepygy7vhunaxjs7ut7gix3m-up4isfjmtwtuvggsjzwc4xus3q.datawarehouse.fabric.microsoft.com"
+        }
+      }
+    }
+  },
+  "command": {
+    "operation": "build",
+    "arguments": {
+      "exclude": "",
+      "threads": 4
+    }
+  }
+}
